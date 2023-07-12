@@ -1,6 +1,3 @@
-import RiderAccountData, { RiderAccountRanks } from '../account/RiderAccountData'
+import RiderAppData from './RiderAppData'
 
-export {
-  RiderAccountData,
-  RiderAccountRanks
-}
+export { RiderAppData }
