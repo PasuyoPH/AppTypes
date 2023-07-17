@@ -1,3 +1,4 @@
 import RequestOptions from './RequestOptions'
+import HttpResult from './HttpResult'
 
-export { RequestOptions }
+export { RequestOptions, HttpResult as Result }
