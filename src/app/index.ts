@@ -1,3 +1,7 @@
+import AppState from './AppState'
 import RiderAppData from './RiderAppData'
 
-export { RiderAppData }
+export {
+  AppState,
+  RiderAppData
+}
