@@ -4,7 +4,7 @@ import AppState from './AppState'
 interface RiderAppData {
   token?: string
   data?: RiderAccountData
-  state?: AppState
+  appState?: AppState
 }
 
 export default RiderAppData
