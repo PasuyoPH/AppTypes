@@ -1,3 +1,8 @@
 import HeaderProps from './HeaderProps'
+import NavbarProps, { NavbarItemProps } from './NavbarProps'
 
-export { HeaderProps }
+export {
+  HeaderProps,
+  NavbarProps,
+  NavbarItemProps
+}
