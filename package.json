@@ -4,6 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^18.2.16",
     "axios": "^1.4.0"
   }
 }
