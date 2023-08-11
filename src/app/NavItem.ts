@@ -1,7 +1,7 @@
 interface NavItem {
   label: string
   to: string
-  icon?: JSX.Element
+  icon?: any
 }
 
 export default NavItem

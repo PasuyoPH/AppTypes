@@ -1,13 +1,17 @@
 const Layout = {
-
-  },
-  Text = {
-    primary: '#1a1a1a',
-    secondary: '#787878',
-    main: '#154b93'
-  }
+  primary: '#FAFAFA',
+  secondary: '#FFFFFF',
+  main: '#154b93',
+  danger: '#d24f32'
+},
+Text = {
+  primary: '#1a1a1a',
+  secondary: '#8a8a8a',
+  main: '#154b93',
+  danger: '#d24f32'
+}
 
 export {
-  Layout,
-  Text
+Layout,
+Text
 }
