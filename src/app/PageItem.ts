@@ -1,7 +1,7 @@
 import NavItem from './NavItem'
 
 interface PageItem {
-  component: JSX.Element
+  component: (...props: any) => JSX.Element
   name: string
 
   // nav settings

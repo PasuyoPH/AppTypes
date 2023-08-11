@@ -5,6 +5,7 @@ interface RiderAppData {
   token?: string
   data?: RiderAccountData
   appState?: AppState
+  websocket?: WebSocket
 }
 
 export default RiderAppData

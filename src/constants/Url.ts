@@ -53,9 +53,11 @@ const BaseUrl = 'http://192.168.1.32:8080/api',
     USER_HISTORY: BaseUrl + '/users/@me/history',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
-  }
+  },
+  Gateway = 'ws://192.168.68.107:3000'
 
 export {
   BaseUrl,
-  Routes
+  Routes,
+  Gateway
 }
