@@ -54,7 +54,7 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
   },
-  Gateway = 'ws://192.168.68.107:3000'
+  Gateway = 'ws://192.168.68.107:3030'
 
 export {
   BaseUrl,
