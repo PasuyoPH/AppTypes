@@ -7,7 +7,7 @@ interface RiderAppData {
   data?: RiderAccountData
   appState?: AppState
   websocket?: WebSocket
-  gatewatState?: GatewayState
+  gatewayState?: GatewayState
 }
 
 export default RiderAppData
