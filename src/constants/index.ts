@@ -1,3 +1,7 @@
 import * as Url from './Url'
+import * as Colors from './Colors'
 
-export { Url }
+export {
+  Colors,
+  Url
+}
