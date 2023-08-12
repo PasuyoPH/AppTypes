@@ -4,6 +4,7 @@ import NavItem from './NavItem'
 import PageItem from './PageItem'
 import GatewayState from './GatewayState'
 import QuickNavigationItem from './QuickNavigationItem'
+import Geo from './Geo'
 
 export {
   AppState,
@@ -11,5 +12,6 @@ export {
   NavItem,
   PageItem,
   GatewayState,
-  QuickNavigationItem
+  QuickNavigationItem,
+  Geo
 }
