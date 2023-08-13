@@ -5,6 +5,8 @@ import * as Constants from './src/constants'
 import * as Http from './src/http'
 import * as Job from './src/job'
 import * as Web from './src/web'
+import * as Items from './src/items'
+import * as Merchant from './src/merchant'
 
 export {
   App,
@@ -13,5 +15,7 @@ export {
   Constants,
   Http,
   Job,
-  Web
+  Web,
+  Items,
+  Merchant
 }
