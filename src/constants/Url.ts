@@ -34,6 +34,8 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     JOB_STATUS: (uid: string) => BaseUrl + '/jobs/' + uid + '/status',
     JOBS: BaseUrl + '/jobs',
 
+    MERCHANT_NEW_ITEMS: BaseUrl + '/merchant/items',
+
     NOTIFICATIONS: BaseUrl + '/notifications',
 
     PROMOS: BaseUrl + '/promos',
@@ -52,6 +54,7 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     USER_DRAFTS: BaseUrl + '/users/@me/drafts',
     USER_HISTORY: BaseUrl + '/users/@me/history',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
+    USER_MERCHANT_RECOMMENDED: BaseUrl + '/users/@me/merchants',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
   },
   Gateway = 'ws://192.168.68.107:3030'

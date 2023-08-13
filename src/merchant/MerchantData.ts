@@ -8,6 +8,8 @@ interface MerchantData extends Geo { // this would include lat & long due to it 
   name: string
   bio?: string
   sales?: number
+  tags?: string[]
+  priceLevels?: number
 }
 
 export default MerchantData
