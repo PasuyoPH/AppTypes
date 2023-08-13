@@ -5,6 +5,7 @@ import PageItem from './PageItem'
 import GatewayState from './GatewayState'
 import QuickNavigationItem from './QuickNavigationItem'
 import Geo from './Geo'
+import UserAppData from './UserAppData'
 
 export {
   AppState,
@@ -13,5 +14,6 @@ export {
   PageItem,
   GatewayState,
   QuickNavigationItem,
-  Geo
+  Geo,
+  UserAppData
 }
