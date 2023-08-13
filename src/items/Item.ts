@@ -8,6 +8,8 @@ interface Item {
   image?: string
   stock: number
   type: ItemTypes
+  banner?: string
+  addedAt: number
 }
 
 export default Item

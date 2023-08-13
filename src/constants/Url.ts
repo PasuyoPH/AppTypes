@@ -34,7 +34,11 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     JOB_STATUS: (uid: string) => BaseUrl + '/jobs/' + uid + '/status',
     JOBS: BaseUrl + '/jobs',
 
-    MERCHANT_NEW_ITEMS: BaseUrl + '/merchant/items',
+    ITEM: (uid: string) => BaseUrl + '/items/' + uid,
+    ITEMS_NEW: BaseUrl + '/items/new',
+
+    MERCHANT_ITEMS: (uid: string) => BaseUrl + '/merchant/' + uid + '/items',
+    MERCHANTS: BaseUrl + '/merchants',
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 

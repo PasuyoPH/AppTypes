@@ -6,6 +6,12 @@ import GatewayState from './GatewayState'
 import QuickNavigationItem from './QuickNavigationItem'
 import Geo from './Geo'
 import UserAppData from './UserAppData'
+import type { RouteProp, ParamListBase } from '@react-navigation/native'
+
+interface PageProps {
+  route: RouteProp<ParamListBase, string>;
+  navigation: any;
+}
 
 export {
   AppState,
@@ -15,5 +21,6 @@ export {
   GatewayState,
   QuickNavigationItem,
   Geo,
-  UserAppData
+  UserAppData,
+  PageProps
 }
