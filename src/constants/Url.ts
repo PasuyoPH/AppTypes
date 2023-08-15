@@ -36,10 +36,12 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
 
     ITEM: (uid: string) => BaseUrl + '/items/' + uid,
     ITEMS_NEW: BaseUrl + '/items/new',
+    ITEMS: BaseUrl + '/items',
+    ITEMS_IDS: (uids: string[]) => BaseUrl + '/items?ids=' + uids.join(','),
 
     MERCHANT_ITEMS: (uid: string) => BaseUrl + '/merchant/' + uid + '/items',
     MERCHANTS: BaseUrl + '/merchants',
-    MERCHANT: (uid: string) => BaseUrl + '/merchants/' + uid,
+    MERCHANT: (uid: string) => BaseUrl + '/merchant/' + uid,
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 
