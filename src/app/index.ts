@@ -8,6 +8,7 @@ import Geo from './Geo'
 import UserAppData from './UserAppData'
 import type { RouteProp, ParamListBase } from '@react-navigation/native'
 import CartData from './CartData'
+import PaymentMethodProps from './PaymentMethodProps'
 
 interface PageProps {
   route: RouteProp<ParamListBase, string>;
@@ -24,5 +25,6 @@ export {
   Geo,
   UserAppData,
   PageProps,
-  CartData
+  CartData,
+  PaymentMethodProps
 }

@@ -43,6 +43,7 @@ const BaseUrl = 'http://pasuyo.express/api',
     MERCHANTS: BaseUrl + '/merchants',
     MERCHANT: (uid: string) => BaseUrl + '/merchant/' + uid,
     MERCHANT_IDS: (uids: string[]) => BaseUrl + '/merchants?ids=' + uids.join(','),
+    MERCHANT_DATA: (uid: string) => BaseUrl + '/merchant/' + uid + '/data',
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 
