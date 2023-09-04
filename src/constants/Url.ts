@@ -47,6 +47,11 @@ const BaseUrl = 'http://pasuyo.express/api',
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 
+    ORDERS: BaseUrl + '/orders',
+
+    PAYMENT_PAYPAL_CREATE: BaseUrl + '/payment/paypal',
+    PAYMENT_PAYPAL_COMPLETE: (uid: string) => BaseUrl + '/payment/paypal/' + uid,
+
     PROMOS: BaseUrl + '/promos',
 
     RIDER: BaseUrl + '/rider',
