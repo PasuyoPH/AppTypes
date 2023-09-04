@@ -25,7 +25,9 @@ const Layout = {
     //TODO: Move gold, green, yellow, etc... here
     whiteSmoke: '#F5F5F5',
     main: '#154b93',
-    mainDesaturated: '#3d5a80'
+    mainDesaturated: '#3d5a80',
+    whiteSmokeAlt: '##efefef',
+    lightWhiteSmoke: '#fffefe'
   }
 
 const StatusColors: string[] = []
