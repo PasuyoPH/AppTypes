@@ -1,4 +1,4 @@
-const BaseUrl = 'http://pasuyo.express/api',
+const BaseUrl = 'http://192.168.68.122:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -21,6 +21,8 @@ const BaseUrl = 'http://pasuyo.express/api',
     EXPO_TOKEN: BaseUrl + '/expo-token',
     
     FETCH_RIDERS: BaseUrl + '/fetch-riders',
+
+    GEOCODE: BaseUrl + '/geo',
 
     JOB: (uid: string) => BaseUrl + '/jobs/' + uid,
     JOB_ACCEPT: (uid: string) => BaseUrl + '/jobs/' + uid + '/accept',
