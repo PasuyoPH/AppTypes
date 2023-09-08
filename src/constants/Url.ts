@@ -21,6 +21,8 @@ const BaseUrl = 'http://192.168.68.122:8080/api',
     EXPO_TOKEN: BaseUrl + '/expo-token',
     
     FETCH_RIDERS: BaseUrl + '/fetch-riders',
+    
+    FILTERS: BaseUrl + '/filters',
 
     GEOCODE: BaseUrl + '/geo',
 
