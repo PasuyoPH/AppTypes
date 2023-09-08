@@ -7,6 +7,7 @@ import * as Job from './src/job'
 import * as Web from './src/web'
 import * as Items from './src/items'
 import * as Merchant from './src/merchant'
+import * as Filters from './src/filters'
 
 export {
   App,
@@ -17,5 +18,6 @@ export {
   Job,
   Web,
   Items,
-  Merchant
+  Merchant,
+  Filters
 }
