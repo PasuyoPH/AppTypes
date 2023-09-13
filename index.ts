@@ -8,6 +8,7 @@ import * as Web from './src/web'
 import * as Items from './src/items'
 import * as Merchant from './src/merchant'
 import * as Filters from './src/filters'
+import * as Orders from './src/orders'
 
 export {
   App,
@@ -19,5 +20,6 @@ export {
   Web,
   Items,
   Merchant,
-  Filters
+  Filters,
+  Orders
 }
