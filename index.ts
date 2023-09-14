@@ -9,6 +9,8 @@ import * as Items from './src/items'
 import * as Merchant from './src/merchant'
 import * as Filters from './src/filters'
 import * as Orders from './src/orders'
+import * as Paypal from './src/paypal'
+import * as Transactions from './src/transaction'
 
 export {
   App,
@@ -21,5 +23,7 @@ export {
   Items,
   Merchant,
   Filters,
-  Orders
+  Orders,
+  Paypal,
+  Transactions
 }
