@@ -1,7 +1,7 @@
-import OrderData from '../http/OrderData'
+import Order from './Order'
 import OrderStatus from './OrderStatus'
 
 export {
-  OrderData,
+  Order,
   OrderStatus
 }

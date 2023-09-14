@@ -24,6 +24,7 @@ const Layout = {
   All = { // colors that is available to both layout and text
     //TODO: Move gold, green, yellow, etc... here
     whiteSmoke: '#F5F5F5',
+    whiteSmokeAlt: '#F8F8F8',
     main: '#154b93',
     mainDesaturated: '#3d5a80',
     lightBlue: '#2377e8',
