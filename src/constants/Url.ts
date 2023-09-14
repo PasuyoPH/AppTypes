@@ -1,4 +1,4 @@
-const BaseUrl = 'http://192.168.68.122:8080/api',
+const BaseUrl = 'http://192.168.0.114:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -53,6 +53,7 @@ const BaseUrl = 'http://192.168.68.122:8080/api',
 
     ORDERS: BaseUrl + '/orders',
 
+    PAYMENT_CASH: BaseUrl + '/payment/cash',
     PAYMENT_PAYPAL_CREATE: BaseUrl + '/payment/paypal',
     PAYMENT_PAYPAL_COMPLETE: (uid: string) => BaseUrl + '/payment/paypal/' + uid,
 
