@@ -57,6 +57,8 @@ const BaseUrl = 'http://192.168.0.114:8080/api',
     PAYMENT_PAYPAL_CREATE: BaseUrl + '/payment/paypal',
     PAYMENT_PAYPAL_COMPLETE: (uid: string) => BaseUrl + '/payment/paypal/' + uid,
 
+    PAYMENTMETHODS: BaseUrl + '/methods',
+
     PROMOS: BaseUrl + '/promos',
 
     RIDER: BaseUrl + '/rider',
