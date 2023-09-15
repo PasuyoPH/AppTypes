@@ -11,6 +11,7 @@ import * as Filters from './src/filters'
 import * as Orders from './src/orders'
 import * as Paypal from './src/paypal'
 import * as Transactions from './src/transaction'
+import * as Payments from './src/payment'
 
 export {
   App,
@@ -25,5 +26,6 @@ export {
   Filters,
   Orders,
   Paypal,
-  Transactions
+  Transactions,
+  Payments
 }
