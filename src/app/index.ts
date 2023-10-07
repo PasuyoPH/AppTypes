@@ -1,3 +1,4 @@
+import AppModes from './AppModes'
 import AppState from './AppState'
 import RiderAppData from './RiderAppData'
 import NavItem from './NavItem'
@@ -16,6 +17,7 @@ interface PageProps {
 }
 
 export {
+  AppModes,
   AppState,
   RiderAppData,
   NavItem,

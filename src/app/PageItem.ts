@@ -7,6 +7,8 @@ interface PageItem {
   hideHeader?: boolean
   statusBarColor?: 'light' | 'dark'
 
+  unmount?: boolean // defaultL: true
+
   // nav settings
   nav?: NavItem
   animation?: 'default' | 'fade' | 'flip' | 'simple_push' | 'slide_from_bottom' | 'slide_from_right' | 'slide_from_left' | 'none'

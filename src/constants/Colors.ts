@@ -28,7 +28,8 @@ const Layout = {
     main: '#154b93',
     mainDesaturated: '#3d5a80',
     lightBlue: '#2377e8',
-    brown: '#c19a6c'
+    brown: '#c19a6c',
+    lightGreen: '#1ddb46'
   }
 
 const StatusColors: string[] = []

@@ -1,4 +1,4 @@
-const BaseUrl = 'http://192.168.0.114:8080/api',
+const BaseUrl = 'http://192.168.68.107:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -14,6 +14,8 @@ const BaseUrl = 'http://192.168.0.114:8080/api',
     AUTH_TOKEN: BaseUrl + '/auth/token',
 
     DEFAULT: BaseUrl,
+
+    DELIVERIES: BaseUrl + '/deliveries',
 
     DISTANCE_RIDER: BaseUrl + '/distance/rider',
     DISTANCE_USER: BaseUrl + '/distance/user',
@@ -42,17 +44,20 @@ const BaseUrl = 'http://192.168.0.114:8080/api',
     ITEMS_NEW: BaseUrl + '/items/new',
     ITEMS: BaseUrl + '/items',
     ITEMS_IDS: (uids: string[]) => BaseUrl + '/items?ids=' + uids.join(','),
+    ITEM_LIKE: (uid: string) => BaseUrl + '/items/' + uid + '/like',
 
     MERCHANT_ITEMS: (uid: string) => BaseUrl + '/merchant/' + uid + '/items',
     MERCHANTS: BaseUrl + '/merchants',
     MERCHANT: (uid: string) => BaseUrl + '/merchant/' + uid,
     MERCHANT_IDS: (uids: string[]) => BaseUrl + '/merchants?ids=' + uids.join(','),
     MERCHANT_DATA: (uid: string) => BaseUrl + '/merchant/' + uid + '/data',
+    MERCHANT_SEARCH: (query: string) => BaseUrl + '/search?query=' + query,
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 
     ORDERS: BaseUrl + '/orders',
 
+    PAYMENT: BaseUrl + '/payment',
     PAYMENT_CASH: BaseUrl + '/payment/cash',
     PAYMENT_PAYPAL_CREATE: BaseUrl + '/payment/paypal',
     PAYMENT_PAYPAL_COMPLETE: (uid: string) => BaseUrl + '/payment/paypal/' + uid,
@@ -75,6 +80,7 @@ const BaseUrl = 'http://192.168.0.114:8080/api',
     USER_DRAFTS: BaseUrl + '/users/@me/drafts',
     USER_HISTORY: BaseUrl + '/users/@me/history',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
+    USER_LIKES: BaseUrl + '/users/@me/likes',
     USER_MERCHANT_RECOMMENDED: BaseUrl + '/users/@me/merchants',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
   },

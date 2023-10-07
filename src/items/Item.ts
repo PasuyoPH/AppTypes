@@ -10,6 +10,7 @@ interface Item {
   type: ItemTypes
   banner?: string
   addedAt: number
+  types: ItemTypes[] // for filters
 }
 
 export default Item
