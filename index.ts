@@ -12,6 +12,7 @@ import * as Orders from './src/orders'
 import * as Paypal from './src/paypal'
 import * as Transactions from './src/transaction'
 import * as Payments from './src/payment'
+import * as Deliveries from './src/delivery'
 
 export {
   App,
@@ -27,5 +28,6 @@ export {
   Orders,
   Paypal,
   Transactions,
-  Payments
+  Payments,
+  Deliveries
 }
