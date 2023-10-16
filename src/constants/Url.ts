@@ -40,6 +40,11 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     JOB_STATUS: (uid: string) => BaseUrl + '/jobs/' + uid + '/status',
     JOBS: BaseUrl + '/jobs',
 
+    JOBS2: BaseUrl + '/jobs2',
+    JOBS2_DATA: (uid: string) => BaseUrl + '/jobs2/' + uid + '/data',
+    JOBS2_MAP: BaseUrl + '/jobs2/map',
+    JOBS2_TAKE: (uid: string) =>  BaseUrl + '/jobs2/' + uid,
+
     ITEM: (uid: string) => BaseUrl + '/items/' + uid,
     ITEMS_NEW: BaseUrl + '/items/new',
     ITEMS: BaseUrl + '/items',
