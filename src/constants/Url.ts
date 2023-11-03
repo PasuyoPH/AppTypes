@@ -1,4 +1,4 @@
-const BaseUrl = 'http://192.168.68.107:8080/api',
+const BaseUrl = 'http://pasuyo.express/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -16,6 +16,7 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     DEFAULT: BaseUrl,
 
     DELIVERIES: BaseUrl + '/deliveries',
+    DELIVERY: (uid: string) => BaseUrl + '/delivery/' + uid,
 
     DISTANCE_RIDER: BaseUrl + '/distance/rider',
     DISTANCE_USER: BaseUrl + '/distance/user',
@@ -69,6 +70,8 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
 
     PAYMENTMETHODS: BaseUrl + '/methods',
 
+    PROFILE: BaseUrl + '/profile',
+
     PROMOS: BaseUrl + '/promos',
 
     RIDER: BaseUrl + '/rider',
@@ -82,9 +85,11 @@ const BaseUrl = 'http://192.168.68.107:8080/api',
     SERVICES: BaseUrl + '/services',
 
     USER: BaseUrl + '/user',
+    USER_ACTIVE_DELIVERIES: BaseUrl + '/users/@me/active-deliveries',
     USER_DRAFTS: BaseUrl + '/users/@me/drafts',
     USER_HISTORY: BaseUrl + '/users/@me/history',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
+    USER_JOB_ADDRESSES: (uid: string) => BaseUrl + '/users/@me/job-addresses/' + uid,
     USER_LIKES: BaseUrl + '/users/@me/likes',
     USER_MERCHANT_RECOMMENDED: BaseUrl + '/users/@me/merchants',
     USER_PROFILE: BaseUrl + '/users/@me/profile'

@@ -1,3 +1,4 @@
+import { JobTypes } from 'app-types/src/job'
 import OrderStatus from './OrderStatus'
 
 // new interface for ordering items
@@ -20,6 +21,7 @@ interface Order {
   rider?: string // proof of who the rider is
 
   status: OrderStatus
+  type: JobTypes
 }
 
 export default Order

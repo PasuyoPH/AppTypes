@@ -1,3 +1,4 @@
+import { JobTypes } from 'app-types/src/job'
 import DeliveryStatus from './Status'
 
 // new interface for ordering items
@@ -25,6 +26,9 @@ interface Delivery {
   // fees
   fee?: number
   riderFee?: number
+
+  type: JobTypes
+  image: string
 }
 
 export default Delivery

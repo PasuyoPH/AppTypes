@@ -22,6 +22,7 @@ interface JobData {
     rider?: Account.RiderAccountData
     user?: Account.UserAccountData
   }
+  uid: string
 }
 
 export default JobData
