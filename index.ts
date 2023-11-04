@@ -13,6 +13,7 @@ import * as Paypal from './src/paypal'
 import * as Transactions from './src/transaction'
 import * as Payments from './src/payment'
 import * as Deliveries from './src/delivery'
+import * as Load from './src/load'
 
 export {
   App,
@@ -29,5 +30,6 @@ export {
   Paypal,
   Transactions,
   Payments,
-  Deliveries
+  Deliveries,
+  Load
 }
