@@ -1,4 +1,4 @@
-const BaseUrl = 'http://pasuyo.express/api',
+const BaseUrl = 'http://192.168.68.109:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -12,6 +12,8 @@ const BaseUrl = 'http://pasuyo.express/api',
 
     // new admin routes
     ADMIN_MERCHANTS: BaseUrl +  '/admin/merchants',
+    ADMIN_LOAD_REQUESTS: BaseUrl + '/admin/loads',
+    ADMIN_LOAD_REQUEST: (uid: string) => BaseUrl + '/admin/load/' + uid,
 
     AUTH: BaseUrl + '/auth',
     AUTH_TOKEN: BaseUrl + '/auth/token',
@@ -97,8 +99,8 @@ const BaseUrl = 'http://pasuyo.express/api',
     USER_MERCHANT_RECOMMENDED: BaseUrl + '/users/@me/merchants',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
   },
-  Gateway = 'ws://194.233.83.27:3030'
-  //Gateway = 'ws://192.168.68.109:3030'
+  //Gateway = 'ws://194.233.83.27:3030'
+  Gateway = 'ws://192.168.68.109:3030'
 
 export {
   BaseUrl,
