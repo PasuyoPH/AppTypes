@@ -16,6 +16,7 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     ADMIN_LOAD_REQUEST: (uid: string) => BaseUrl + '/admin/loads/' + uid,
     ADMIN_TRANSACTIONS: BaseUrl + '/admin/transactions',
     ADMIN_STATS: BaseUrl + '/admin/stats',
+    ADMIN_APPROVE_GCASH: (uid: string) => '/admin/transaction/' + uid,
 
     AUTH: BaseUrl + '/auth',
     AUTH_TOKEN: BaseUrl + '/auth/token',
