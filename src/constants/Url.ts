@@ -52,6 +52,8 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     JOBS2_DATA: (uid: string) => BaseUrl + '/jobs2/' + uid + '/data',
     JOBS2_MAP: BaseUrl + '/jobs2/map',
     JOBS2_TAKE: (uid: string) =>  BaseUrl + '/jobs2/' + uid,
+    JOBS2_PICKUP: (uid: string) =>  BaseUrl + '/jobs2/' + uid + '/pickedup',
+    JOBS2_DONE: (uid: string) =>  BaseUrl + '/jobs2/' + uid + '/done',
 
     ITEM: (uid: string) => BaseUrl + '/items/' + uid,
     ITEMS_NEW: BaseUrl + '/items/new',
@@ -73,6 +75,7 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     MERCHANT_ME_ITEMS: BaseUrl + '/merchant/@me/items',
     MERCHANT_ME: BaseUrl + '/merchant/@me',
     MERCHANT_ME_ORDERS: BaseUrl + '/merchant/@me/orders',
+    MERCHANT_ME_ADDRESS: (uid: string) => BaseUrl + '/merchant/@me/addresses/' + uid,
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 
@@ -96,6 +99,7 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     RIDER_LOAD: BaseUrl + '/riders/@me/load', 
     RIDER_OPT_IN: BaseUrl + '/riders/@me/opt-in',
     RIDER_PROFILE: BaseUrl + '/riders/@me/profile',
+    RIDER_STATS: BaseUrl + '/riders/@me/stats',
 
     SERVICES: BaseUrl + '/services',
 
