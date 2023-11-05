@@ -72,6 +72,7 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     MERCHANT_ME_ADDRESSES: BaseUrl + '/merchant/@me/addresses',
     MERCHANT_ME_ITEMS: BaseUrl + '/merchant/@me/items',
     MERCHANT_ME: BaseUrl + '/merchant/@me',
+    MERCHANT_ME_ORDERS: BaseUrl + '/merchant/@me/orders',
 
     NOTIFICATIONS: BaseUrl + '/notifications',
 

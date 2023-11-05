@@ -1,6 +1,6 @@
 {
   "name": "app-types",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
