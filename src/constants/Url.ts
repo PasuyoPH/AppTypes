@@ -66,6 +66,12 @@ const BaseUrl = 'http://192.168.68.109:8080/api',
     MERCHANT_DATA: (uid: string) => BaseUrl + '/merchant/' + uid + '/data',
     MERCHANT_SEARCH: (query: string) => BaseUrl + '/search?query=' + query,
 
+    // NEW MERCHANTS
+    MERCHANT_ME_TOKEN: BaseUrl + '/merchant/@me/token',
+    MERCHANT_ME_ITEM: (uid: string) => BaseUrl + '/merchant/@me/items/' + uid,
+    MERCHANT_ME_ADDRESSES: BaseUrl + '/merchant/@me/addresses',
+    MERCHANT_ME_ITEMS: BaseUrl + '/merchant/@me/items',
+
     NOTIFICATIONS: BaseUrl + '/notifications',
 
     ORDERS: BaseUrl + '/orders',
