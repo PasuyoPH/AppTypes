@@ -1,4 +1,4 @@
-const BaseUrl = 'http://192.168.0.104/api',
+const BaseUrl = 'http://192.168.0.104:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
