@@ -1,4 +1,4 @@
-const BaseUrl = 'http://192.168.0.104:8080/api',
+const BaseUrl = 'http://pasuyo.express/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -118,8 +118,8 @@ const BaseUrl = 'http://192.168.0.104:8080/api',
     USER_MERCHANT_RECOMMENDED: BaseUrl + '/users/@me/merchants',
     USER_PROFILE: BaseUrl + '/users/@me/profile'
   },
-  //Gateway = 'ws://194.233.83.27:3030'
-  Gateway = 'ws://192.168.0.104:3030'
+  Gateway = 'ws://194.233.83.27:3030'
+  //Gateway = 'ws://192.168.0.104:3030'
 
 export {
   BaseUrl,
