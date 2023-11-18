@@ -1,4 +1,4 @@
-const BaseUrl = 'http://pasuyo.express/api',
+const BaseUrl = 'http://194.233.83.27:8080/api',
   Routes = {
     ADDRESS: (uid: string) => BaseUrl + '/addresses/' + uid,
     ADDRESSES: BaseUrl + '/addresses',
@@ -87,6 +87,7 @@ const BaseUrl = 'http://pasuyo.express/api',
     ORDERS: BaseUrl + '/orders',
 
     PAYMENT: BaseUrl + '/payment',
+    PAYMENT_RIDER: BaseUrl + '/payment/rider',
     PAYMENT_CASH: BaseUrl + '/payment/cash',
     PAYMENT_PAYPAL_CREATE: BaseUrl + '/payment/paypal',
     PAYMENT_PAYPAL_COMPLETE: (uid: string) => BaseUrl + '/payment/paypal/' + uid,
