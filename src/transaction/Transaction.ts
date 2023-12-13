@@ -7,6 +7,7 @@ interface Transaction {
   user: string // user who made the transaction
   createdAt: number // when the transaction is made
   currency: string // what currency is used, should be PHP
+  receipt?: string
 }
 
 export default Transaction

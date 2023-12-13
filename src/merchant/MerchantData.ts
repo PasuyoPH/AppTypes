@@ -15,6 +15,7 @@ interface MerchantData extends Geo { // this would include lat & long due to it 
   // state data
   open?: boolean
   hide?: boolean
+  sales?: number
 }
 
 export default MerchantData
