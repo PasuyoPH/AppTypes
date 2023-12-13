@@ -11,6 +11,9 @@ interface Item {
   banner?: string
   addedAt: number
   types: ItemTypes[] // for filters
+
+  available?: boolean
+  eta: number
 }
 
 export default Item
