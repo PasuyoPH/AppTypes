@@ -106,6 +106,7 @@ const BaseUrl = 'http://194.233.83.27:8080/api',
     RIDER_OPT_IN: BaseUrl + '/riders/@me/opt-in',
     RIDER_PROFILE: BaseUrl + '/riders/@me/profile',
     RIDER_STATS: BaseUrl + '/riders/@me/stats',
+    RIDER_GET_OTHER_RIDER: (uid: string) => '/rider/' + uid,
 
     SERVICES: BaseUrl + '/services',
 
