@@ -68,6 +68,7 @@ const BaseUrl = 'http://194.233.83.27:8080/api',
     MERCHANT_IDS: (uids: string[]) => BaseUrl + '/merchants?ids=' + uids.join(','),
     MERCHANT_DATA: (uid: string) => BaseUrl + '/merchant/' + uid + '/data',
     MERCHANT_SEARCH: (query: string) => BaseUrl + '/search?query=' + query,
+    MERCHANT_TYPE: (type: number) => BaseUrl + '/merchants-type/' + type,
 
     // NEW MERCHANTS
     MERCHANT_ME_TOKEN: BaseUrl + '/merchants/@me/token',
