@@ -1,7 +1,9 @@
 import { Geo } from '../address'
 import ItemTypes from '../items/ItemTypes'
 
-interface MerchantData extends Geo { // this would include lat & long due to it having specific branch locations  
+interface MerchantData extends Geo { // this would include lat & long due to it having specific branch locations
+  uid: string
+
   // customizable data
   name: string
   banner?: string

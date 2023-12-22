@@ -113,6 +113,7 @@ const BaseUrl = 'http://194.233.83.27:8080/api',
 
     USER: BaseUrl + '/user',
     USER_ACTIVE_DELIVERIES: BaseUrl + '/users/@me/active-deliveries',
+    USER_ACTIVE_JOBS: BaseUrl + '/users/@me/active',
     USER_DRAFTS: BaseUrl + '/users/@me/drafts',
     USER_HISTORY: BaseUrl + '/users/@me/history',
     USER_JOBS: BaseUrl + '/users/@me/jobs',
