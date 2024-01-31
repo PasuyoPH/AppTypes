@@ -6,6 +6,12 @@ enum RiderAccountRanks {
   RANK_BLACK_DIAMOND
 }
 
+enum RiderMode {
+  COMPLETE,
+  BAG,
+  UNIFORM
+}
+
 interface RiderAccountData {
   uid: string
   email?: string
@@ -21,7 +27,8 @@ interface RiderAccountData {
   xp?: number
   optInLocation?: boolean
   id?: string
+  mode?: RiderMode
 }
 
 export default RiderAccountData
-export { RiderAccountRanks }
+export { RiderAccountRanks, RiderMode }
