@@ -17,7 +17,7 @@ const BaseUrl = 'http://194.233.83.27:8080/api',
     ADMIN_TRANSACTIONS: BaseUrl + '/admin/transactions',
     ADMIN_STATS: BaseUrl + '/admin/stats',
     ADMIN_APPROVE_GCASH: (uid: string) => '/admin/transaction/' + uid,
-    ADMIN_SET_RIDER_MODE: (uid: string) => BaseUrl + ' /admin/mode/' + uid,
+    ADMIN_SET_RIDER_MODE: (uid: string) => BaseUrl + '/admin/mode/' + uid,
 
     AUTH: BaseUrl + '/auth',
     AUTH_TOKEN: BaseUrl + '/auth/token',
