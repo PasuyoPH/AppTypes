@@ -1,7 +1,7 @@
 import Data from './Data'
 import Status from './Status'
 
-export {
+export type {
   Data,
   Status
 }

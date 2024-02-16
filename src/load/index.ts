@@ -1,5 +1,5 @@
 import LoadRequest from './LoadRequest'
 
-export {
+export type {
   LoadRequest
 }

@@ -18,4 +18,4 @@ const JobStatusAsText: string[] = [
 JobStatusAsText[-1] = 'Cancelled'
 
 export default JobStatus
-export { JobStatusAsText }
+export type { JobStatusAsText }

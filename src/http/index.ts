@@ -3,7 +3,7 @@ import HttpResult from './HttpResult'
 import * as Geocode from './ReverseGeoCode'
 import OrderData from './OrderData'
 
-export {
+export type {
   RequestOptions,
   HttpResult as Result,
   Geocode,

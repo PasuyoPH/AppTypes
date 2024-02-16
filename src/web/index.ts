@@ -2,7 +2,7 @@ import HeaderProps from './HeaderProps'
 import NavbarProps, { NavbarItemProps } from './NavbarProps'
 import RiderCardProps from './RiderCardProps'
 
-export {
+export type {
   HeaderProps,
   NavbarProps,
   NavbarItemProps,

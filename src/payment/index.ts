@@ -1,3 +1,3 @@
 import PaymentMethod from './PaymentMethod'
 
-export { PaymentMethod }
+export type { PaymentMethod }

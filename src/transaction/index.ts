@@ -1,7 +1,7 @@
 import Transaction from './Transaction'
 import TransactionStatus from './TransactionStatus'
 
-export {
+export type {
   Transaction,
   TransactionStatus
 }

@@ -1,5 +1,5 @@
 import PaymentPaypalCreated from './PaypalPaymentCreated'
 
-export {
+export type {
   PaymentPaypalCreated
 }

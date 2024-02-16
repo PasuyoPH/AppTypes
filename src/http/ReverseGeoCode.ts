@@ -15,7 +15,7 @@ interface ReverseGeocodingResponse {
   status: string;
 }
 
-export {
+export type {
   ReverseGeocodingResponse,
   GeocodingResult,
   AddressComponent

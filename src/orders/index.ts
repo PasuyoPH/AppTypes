@@ -1,7 +1,7 @@
 import Order from './Order'
 import OrderStatus from './OrderStatus'
 
-export {
+export type {
   Order,
   OrderStatus
 }

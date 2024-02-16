@@ -2,7 +2,7 @@ import ItemTypes from './ItemTypes'
 import Item from './Item'
 import Likes from './ItemLikes'
 
-export {
+export type {
   Item,
   ItemTypes,
   Likes

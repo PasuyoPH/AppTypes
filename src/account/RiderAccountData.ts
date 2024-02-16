@@ -31,4 +31,4 @@ interface RiderAccountData {
 }
 
 export default RiderAccountData
-export { RiderAccountRanks, RiderMode }
+export type { RiderAccountRanks, RiderMode }

@@ -26,7 +26,7 @@ interface AddressUsedData {
   landmark?: string
 }
 
-export {
+export type {
   AddressUsedData,
   AddressUsedType
 }

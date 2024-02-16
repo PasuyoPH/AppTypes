@@ -11,4 +11,4 @@ interface NavbarItemProps {
 }
 
 export default NavbarProps
-export { NavbarItemProps }
+export type { NavbarItemProps }

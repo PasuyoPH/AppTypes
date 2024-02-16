@@ -4,7 +4,7 @@ import JobTypes from './JobTypes'
 import PickupPaymentTypes from './PickupPaymentTypes'
 import JobData from './JobData'
 
-export {
+export type {
   Job,
   JobStatus,
   JobTypes,
