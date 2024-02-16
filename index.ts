@@ -16,20 +16,20 @@ import * as Deliveries from './src/delivery'
 import * as Load from './src/load'
 
 export {
-  App,
-  Account,
-  Address,
+  type App,
+  type Account,
+  type Address,
   Constants,
-  Http,
-  Job,
-  Web,
-  Items,
-  Merchant,
-  Filters,
-  Orders,
-  Paypal,
-  Transactions,
-  Payments,
-  Deliveries,
-  Load
+  type Http,
+  type Job,
+  type Web,
+  type Items,
+  type Merchant,
+  type Filters,
+  type Orders,
+  type Paypal,
+  type Transactions,
+  type Payments,
+  type Deliveries,
+  type Load
 }
