@@ -1,7 +1,7 @@
 import MerchantData from './MerchantData'
 import FullMerchantData from './FullMerchantData'
 
-export type {
+export {
   MerchantData,
   FullMerchantData
 }

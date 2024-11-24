@@ -16,7 +16,7 @@ interface PageProps {
   navigation: any;
 }
 
-export type {
+export {
   AppModes,
   AppState,
   RiderAppData,
